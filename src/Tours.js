@@ -9,7 +9,7 @@ const Tours = ({ tours }) => {
       </div>
       <div>
         {tours.map((tour) => {
-          return <Tour key={tours.id} {...tours} />;
+          return <Tour key={tour.id} {...tour} />;
         })}
       </div>
     </section>
